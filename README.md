@@ -78,8 +78,11 @@ StudentPortal inherits from Instructor
 🧱 Contract Structure
 
 Person
- └── Instructor (inherits Person)
-       └── StudentPortal (inherits Instructor)
+ └──
+ Instructor (inherits Person)
+       └──
+       StudentPortal (inherits
+       Instructor)
 
 Contract	Responsibility
 
